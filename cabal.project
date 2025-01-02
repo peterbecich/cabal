@@ -1,3 +1,18 @@
+packages:
+  Cabal
+  Cabal-QuickCheck
+  Cabal-described
+  Cabal-hooks
+  Cabal-syntax
+  Cabal-tests
+  Cabal-tree-diff
+  cabal-benchmarks
+  cabal-dev-scripts
+  cabal-install
+  cabal-install-solver
+  cabal-testsuite
+  cabal-validate
+
 import: project-cabal/ghc-options.config
 import: project-cabal/ghc-latest.config
 import: project-cabal/pkgs.config
